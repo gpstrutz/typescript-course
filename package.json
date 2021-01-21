@@ -1,0 +1,23 @@
+{
+  "name": "typescript-course",
+  "version": "1.0.0",
+  "description": "Contains my trail to learn Typescript and my personal notes about each class",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpstrutz/typescript-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gpstrutz/typescript-course/issues"
+  },
+  "homepage": "https://github.com/gpstrutz/typescript-course#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
