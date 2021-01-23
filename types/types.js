@@ -48,3 +48,51 @@ car = {
     model: 2020
 };
 console.log(car);
+// Functions
+function returnMyName() {
+    return myName;
+}
+console.log(returnMyName());
+function greeting() {
+    console.log("Hello");
+}
+console.log(greeting());
+function sumNumbers(numA, numB) {
+    return numA + numB;
+}
+console.log(sumNumbers(10, 20));
+function squareNumbers(x, y) {
+    return Math.pow(x, y);
+}
+// Functions like Types
+var squareNumber;
+squareNumber = squareNumbers;
+console.log(squareNumber(10, 2));
+// Objects
+var user = {
+    name: "Giovanni",
+    lastname: "Strutz",
+    age: 23
+};
+console.log(user);
+// Challange I - Employee
+/*
+    Criar um objeto funcionario com:
+        - Array de strings com nome dos supervisores;
+        - Função de bater ponto que recebe a hora (numero)
+        e retorna uma string
+            -> Ponto Normal ( <= 8 )
+            -> Fora do Horário ( > 8 )
+*/
+// The challange answer are in employeeChallange.ts
+// Union Types
+var score;
+score = 10;
+console.log(score);
+score = "Giovanni";
+console.log(score);
+// Challange II - Bank Account
+/*
+    - Convert Javascript code in Typescript code;
+    - The challange's answer are in bankChallange.ts
+*/ 
