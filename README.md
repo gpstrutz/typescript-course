@@ -1,2 +1,2 @@
 # Typescript-Course
-Contains my trail to learn Typescript and my personal notes about each class
+Contains my journey to learn Typescript and my personal notes about each class
