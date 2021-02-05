@@ -9,7 +9,7 @@
             -> Fora do Horário ( > 8 )
 */
 // My Answer
-var employee = {
+let employee = {
     supervisors: ["Giovanni", "Beatriz", "Rafaela"],
     hourRegister: function (hour) {
         if (hour <= 8) {
@@ -40,3 +40,4 @@ let employee: { supervisors: string[], hourRegister: (hour: number) => string } 
 }
 
 */
+//# sourceMappingURL=employeeChallange.js.map

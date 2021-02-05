@@ -1,22 +1,22 @@
 "use strict";
 // String
-var myName = 'Giovanni';
+let myName = 'Giovanni';
 console.log(myName);
 // Number
-var age = 23;
-var weight = 1.89;
+let age = 23;
+let weight = 1.89;
 console.log(age, weight);
 // Boolean
-var hasHobbies = false;
+let hasHobbies = false;
 console.log(hasHobbies);
 // Explicited Types
-var myBook;
+let myBook;
 // Arrays
-var myHobbies = ["Cook", "Play", "Read"];
-var hobbies = ["Cook", "Play", "Read"];
+let myHobbies = ["Cook", "Play", "Read"];
+let hobbies = ["Cook", "Play", "Read"];
 console.log(myHobbies, hobbies);
 // Tuples
-var address = ["Av Paulista", 1023];
+let address = ["Av Paulista", 1023];
 console.log(address);
 // Enums
 var Color;
@@ -25,7 +25,7 @@ var Color;
     Color[Color["Grey"] = 1] = "Grey";
     Color[Color["Purple"] = 2] = "Purple";
 })(Color || (Color = {}));
-var myColor = Color.Blue;
+let myColor = Color.Blue;
 console.log(myColor);
 var weekDays;
 (function (weekDays) {
@@ -37,11 +37,11 @@ var weekDays;
     weekDays["friday"] = "fri";
     weekDays["saturday"] = "sat";
 })(weekDays || (weekDays = {}));
-var day;
+let day;
 day = weekDays["monday"];
 console.log(day);
 // Any
-var car = "Volvo";
+let car = "Volvo";
 console.log(car);
 car = {
     brand: "Volvo",
@@ -65,11 +65,11 @@ function squareNumbers(x, y) {
     return Math.pow(x, y);
 }
 // Functions like Types
-var squareNumber;
+let squareNumber;
 squareNumber = squareNumbers;
 console.log(squareNumber(10, 2));
 // Objects
-var user = {
+let user = {
     name: "Giovanni",
     lastname: "Strutz",
     age: 23
@@ -86,7 +86,7 @@ console.log(user);
 */
 // The challange answer are in employeeChallange.ts
 // Union Types
-var score;
+let score;
 score = 10;
 console.log(score);
 score = "Giovanni";
@@ -96,3 +96,4 @@ console.log(score);
     - Convert Javascript code in Typescript code;
     - The challange's answer are in bankChallange.ts
 */ 
+//# sourceMappingURL=types.js.map
